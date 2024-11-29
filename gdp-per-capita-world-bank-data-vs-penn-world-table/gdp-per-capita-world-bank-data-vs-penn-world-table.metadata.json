@@ -1,0 +1,91 @@
+{
+  "chart": {
+    "title": "GDP per capita: Comparing data from World Bank and Penn World Table",
+    "subtitle": "This data is adjusted for inflation and differences in the cost of living between countries.",
+    "note": "This data is expressed in [international-$](#dod:int_dollar_abbreviation) at 2017 prices. Penn World Table uses multiple benchmark years to adjust for differences in the cost of living between countries over time.",
+    "citation": "World Bank (2023); Feenstra et al. (2015), Penn World Table (2021)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/gdp-per-capita-world-bank-data-vs-penn-world-table?v=1&csvType=full&useColumnShortNames=false",
+    "selection": []
+  },
+  "columns": {
+    "GDP per capita, PPP (constant 2017 international $)": {
+      "titleShort": "GDP per capita",
+      "titleLong": "GDP per capita - World Bank – In constant 2017 international $",
+      "descriptionShort": "This data is adjusted for inflation and for differences in the cost of living between countries.",
+      "descriptionKey": [
+        "This GDP per capita indicator provides information on economic growth and income levels from 1990.",
+        "This data is adjusted for inflation and for differences in the cost of living between countries.",
+        "This data is expressed in international-$ at 2017 prices.",
+        "For GDP per capita estimates in the very long run, see the [Maddison Project Database's indicator](https://ourworldindata.org/grapher/gdp-per-capita-maddison)."
+      ],
+      "shortUnit": "$",
+      "unit": "international-$ in 2017 prices",
+      "timespan": "1990-2022",
+      "type": "Numeric",
+      "owidVariableId": 905490,
+      "shortName": "ny_gdp_pcap_pp_kd",
+      "lastUpdated": "2024-05-20",
+      "nextUpdate": "2025-05-20",
+      "citationShort": "World Bank (2023) – with minor processing by Our World in Data",
+      "citationLong": "World Bank (2023) – with minor processing by Our World in Data. “GDP per capita – World Bank – In constant 2017 international $” [dataset]. World Bank, “World Bank World Development Indicators” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/905490.metadata.json"
+    },
+    "GDP per capita (output, multiple price benchmarks)": {
+      "titleShort": "GDP per capita",
+      "titleLong": "GDP per capita - Penn World Table",
+      "descriptionShort": "This data is adjusted for inflation and for differences in the cost of living between countries.",
+      "descriptionKey": [
+        "This GDP per capita indicator provides information on economic growth and income levels in the medium run. Some country estimates are available as far back as 1950.",
+        "This data is adjusted for inflation and for differences in the cost of living between countries.",
+        "This data is expressed in international-$ at 2017 prices, using multiple benchmark years to adjust for differences in the cost of living between countries over time.",
+        "For GDP per capita estimates in the very long run, see the [Maddison Project Database's indicator](https://ourworldindata.org/grapher/gdp-per-capita-maddison).",
+        "For more up-to-date estimates of GDP per capita, see the [World Bank's indicator](https://ourworldindata.org/grapher/gdp-per-capita-worldbank)."
+      ],
+      "descriptionProcessing": "Estimated as the GDP (output, multiple price benchmarks) divided by the population of each country.\n\nThis variable uses ICP PPP benchmarks from multiple years to correct for changing prices over time.\n\nValues for Bermuda have been replaced by estimates on GDP per capita (output, single price benchmark) due to the unusual changes on prices in this country.\n\nValues considered outliers from the original dataset (`i_outlier = \"Outlier\"`) have been excluded from the dataset, due to implausible relative prices (PPPs divided by exchange rates).\n",
+      "shortUnit": "$",
+      "unit": "international-$ in 2017 prices",
+      "timespan": "1950-2019",
+      "type": "Numeric",
+      "owidVariableId": 539760,
+      "shortName": "rgdpo_pc",
+      "lastUpdated": "2022-11-28",
+      "nextUpdate": "2024-12-28",
+      "citationShort": "Feenstra et al. (2015), Penn World Table (2021) – with major processing by Our World in Data",
+      "citationLong": "Feenstra et al. (2015), Penn World Table (2021) – with major processing by Our World in Data. “GDP per capita – Penn World Table” [dataset]. Feenstra et al. (2015), Penn World Table (2021), “Penn World Table” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/539760.metadata.json"
+    },
+    "Population (historical)": {
+      "titleShort": "Population (historical)",
+      "titleLong": "Population (historical)",
+      "descriptionShort": "Population by country, available from 10,000 BCE to 2023, based on data and estimates from different sources.",
+      "descriptionKey": [],
+      "descriptionProcessing": "The population data is constructed by combining data from multiple sources:\n\n- 10,000 BCE - 1799: Historical estimates by HYDE (v3.3).\n\n- 1800 - 1949: Historical estimates by Gapminder (v7).\n\n- 1950-2023: Population records by the UN World Population Prospects (2024 revision).",
+      "shortUnit": "",
+      "unit": "people",
+      "timespan": "-10000-2023",
+      "type": "Integer",
+      "owidVariableId": 953903,
+      "shortName": "population_historical",
+      "lastUpdated": "2024-07-15",
+      "nextUpdate": "2026-07-15",
+      "citationShort": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data",
+      "citationLong": "HYDE (2023); Gapminder (2022); UN WPP (2024) – with major processing by Our World in Data. “Population (historical)” [dataset]. PBL Netherlands Environmental Assessment Agency, “History Database of the Global Environment 3.3”; Gapminder, “Population v7”; United Nations, “World Population Prospects”; Gapminder, “Systema Globalis” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/953903.metadata.json"
+    },
+    "World regions according to OWID": {
+      "titleShort": "World regions according to OWID",
+      "titleLong": "World regions according to OWID",
+      "descriptionKey": [],
+      "unit": "",
+      "timespan": "2023-2023",
+      "type": "Continent",
+      "owidVariableId": 900801,
+      "shortName": "owid_region",
+      "lastUpdated": "2023-01-01",
+      "citationShort": "Our World in Data – processed by Our World in Data",
+      "citationLong": "Our World in Data – processed by Our World in Data. “World regions according to OWID” [dataset]. Our World in Data, “Regions” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/900801.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-11-28"
+}
